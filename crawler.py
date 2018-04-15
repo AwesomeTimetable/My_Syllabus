@@ -47,8 +47,8 @@ class course(object):
 
 def login(header,s):
     '''登陆4m3'''
-    username='1553545'
-    password='625397'
+    username=input('your student id')
+    password=intput('your password')
     startURL='http://4m3.tongji.edu.cn/eams/login.action'
     href='http://4m3.tongji.edu.cn/eams/samlCheck'
     res=s.get(startURL)
